@@ -12,7 +12,7 @@
 #endif
 #endif
 
-#if defined(COSMA_WITH_BLAS) || defined(COSMA_WITH_MKL_BLAS)
+#if defined(COSMA_WITH_BLAS) || defined(COSMA_WITH_MKL_BLAS) || defined(COSMA_WITH_BLIS_BLAS)
 #include <cosma/blas.hpp>
 #endif
 
