@@ -7,6 +7,7 @@
 
 #ifdef COSMA_WITH_BLIS_BLAS
 #include <blis.h>
+typedef CBLAS_ORDER CBLAS_LAYOUT;
 #endif
 
 #ifdef COSMA_WITH_BLAS
